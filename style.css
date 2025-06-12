@@ -69,3 +69,30 @@ body {
       margin-top: 20px;
       color: #ff5f5f;
     }
+
+    .bomb {
+      font-size: 2em;
+      cursor: pointer;
+      transition: transform 0.1s ease-in-out;
+    }
+
+    .bomb:hover {
+      transform: scale(1.2) rotate(-10deg);
+    }
+
+    #resetBtn {
+      margin-top: 15px;
+      padding: 8px 18px;
+      font-size: 1em;
+      background: #222;
+      color: #a8ff60;
+      border: 2px solid #a8ff60;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    #resetBtn:hover {
+      background: #a8ff60;
+      color: #222;
+    }
